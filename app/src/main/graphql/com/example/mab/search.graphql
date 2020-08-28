@@ -1,0 +1,13 @@
+query search($page:Int, $perPage:Int, $search:String, $formatAnime: MediaFormat){
+    Page(page:$page, perPage:$perPage){
+        media(search:$search, format:$formatAnime){
+            id
+            title{
+                userPreferred
+            }
+            coverImage{
+                large
+            }
+        }
+    }
+}

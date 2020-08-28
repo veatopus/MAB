@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">MAB</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type">type</string>
+    <string name="format">format</string>
+    <string name="status">status</string>
+    <string name="season">season</string>
+    <string name="episodes">episodes</string>
+    <string name="JP_name_example">カウボーイビバップ</string>
+    <string name="cowboy_bebop">Cowboy Bebop</string>
+    <string name="duration">duration</string>
+    <string name="_86">86</string>
+    <string name="anime">ANIME</string>
+    <string name="tv">TV</string>
+    <string name="finished">FINISHED</string>
+    <string name="spring">SPRING</string>
+    <string name="_7777">7777</string>
+    <string name="_24">24</string>
+    <string name="discriotion"><![CDATA[Enter a world in the distant future, where Bounty Hunters roam the solar system. Spike and Jet, bounty hunting partners, set out on journeys in an ever struggling effort to win bounty rewards to survive.<br><br>\nWhile traveling, they meet up with other very interesting people. Could Faye, the beautiful and ridiculously poor gambler, Edward, the computer genius, and Ein, the engineered dog be a good addition to the group?]]></string>
+    <string name="discription">Description:</string>
+    <string name="characters">click my</string>
+    <string name="search">Search</string>
+    <string name="get_started">get started</string>
+    <string name="start">start</string>
+    <string name="description"><![CDATA[__Height:__ 6&#039; 1&quot;  \n__Weight:__ 155    \n\nSpike Spiegel is a tall and lean 27-year-old bounty hunter born on Mars. The inspiration for Spike is found in martial artist Bruce Lee who uses the martial arts style of Jeet Kune Do as depicted in Session 8, &quot;Waltz For Venus&quot;. He has fluffy, dark green hair (which is inspired by Yusaku Matsuda&#039;s) and reddish brown eyes, one of which is artificial and lighter than the other. He is usually dressed in a blue leisure suit, with a yellow shirt and Lupin III inspired boots. A flashback in Session 6 revealed it was his fully functioning right eye which was surgically replaced by the cybernetic one (although Spike himself may not have conscious recollection of the procedure since he claims to have lost his natural eye in an &quot;accident&quot;). One theory is that his natural eye may have been lost during the pre-series massacre in which he supposedly &quot;died&quot;. The purpose of this cybernetic eye is never explicitly stated, though it apparently gives him exceptional hand-eye coordination - particularly with firearms (Spike&#039;s gun of choice is a Jericho 941, as seen throughout the series). In the first episode, when facing a bounty-head using Red Eye, Spike mocks him, calling his moves &quot;too slow&quot;. At first, this seems like posturing on Spike&#039;s part, but even with his senses and reflexes accelerated to superhuman levels by the drug, the bounty cannot even touch Spike. A recurring device throughout the entire show is a closeup on Spike&#039;s fully-natural left eye before dissolving to a flashback of his life as part of the syndicate. As said by Spike himself in the last episode, his right eye &quot;only sees the present&quot; and his left eye &quot;only sees the past.&quot; Spike often has a bent cigarette between his lips, sometimes despite rain or &quot;No Smoking&quot; signs.]]></string>
+    <string name="language">language</string>
+    <string name="scripted">Scripted</string>
+    <string name="english">English</string>
+    <string name="ended">Ended</string>
+    <string name="runtime">runtime</string>
+    <string name="_90">90</string>
+    <string name="schedule">schedule</string>
+    <string name="genres">genres</string>
+    <string name="summary"><![CDATA[<p>Based on the bestselling book series <i>A Song of Ice and Fire</i> by George R.R. Martin, this sprawling new HBO drama is set in a world where summers span decades and winters can last a lifetime. From the scheming south and the savage eastern lands, to the frozen north and ancient Wall that protects the realm from the mysterious darkness beyond, the powerful families of the Seven Kingdoms are locked in a battle for the Iron Throne. This is a story of duplicity and treachery, nobility and honor, conquest and triumph. In the <b>Game of Thrones</b>, you either win or you die.</p>]]></string>
+    <string name="peter_dinklage">Peter Dinklage</string>
+    <string name="tyrion_lannister">Tyrion Lannister</string>
+    <string name="game_of_thrones">Game of Thrones</string>
+
+    <string-array name="spinner_format_anime_type">
+        <item>TV</item>
+        <item>TV_SHORT</item>
+        <item>MOVIE</item>
+        <item>SPECIAL</item>
+        <item>OVA</item>
+        <item>ONA</item>
+        <item>MUSIC</item>
+        <item>MANGA</item>
+        <item>ONE_SHOT</item>
+    </string-array>
+
+
+    <string-array name="spinner_format_tv_show_type">
+        <item>schedule to day, USA</item>
+        <item>schedule full</item>
+        <item>all</item>
+    </string-array>
+
+
+</resources>

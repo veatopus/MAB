@@ -1,0 +1,16 @@
+query getLislAnimePagenation( $page: Int,  $perPage: Int,
+    $formatAnime: MediaFormat, $seasonYear:Int = 2020, $season: MediaSeason) {
+    Page (page: $page, perPage: $perPage) {
+        media(format: $formatAnime, season: $season, seasonYear: $seasonYear) {
+            season
+            seasonYear
+            id
+            coverImage{
+                large
+            }
+            title {
+                userPreferred
+            }
+        }
+    }
+}

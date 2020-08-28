@@ -1,0 +1,50 @@
+query MediaById($id:Int){
+    Media(id:$id){
+        title{
+            userPreferred
+            native
+        }
+        type
+        format
+        status
+        season
+        seasonYear
+        episodes
+        duration
+        genres
+        averageScore
+        relations{
+            nodes{
+                title {
+                    userPreferred
+                }
+                id
+                coverImage{
+                    large
+                }
+            }
+        }
+        coverImage{
+            extraLarge
+        }
+        bannerImage
+        description(asHtml:true)
+
+        characters{
+            nodes{
+                id
+                favourites
+                name{
+                    full
+                }
+                image{
+                    large
+                }
+            }
+            edges{
+                role
+            }
+        }
+
+    }
+}

@@ -1,0 +1,12 @@
+query MiniAnimeById($id:Int){
+    Media(id:$id){
+        title{
+            userPreferred
+        }
+        coverImage{
+            large
+        }
+        season
+        seasonYear
+    }
+}
